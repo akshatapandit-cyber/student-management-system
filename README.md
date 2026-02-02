@@ -1,33 +1,31 @@
 # Student Management System (Django)
 
-A simple **Student Management System** built using **Python Django** that performs basic CRUD operations (Create, Read, Update, Delete) on student records.
+A simple **Student Management System** built using **Python Django** that performs basic **CRUD operations** (Create, Read, Update, Delete) on student records.
 
 This project is developed as a **BCA academic / practice project** to understand Django fundamentals and database handling.
 
 ---
 
 ## 🚀 Features
-
-- Add new student details
-- View student list
-- Edit student information
-- Delete student records with confirmation
-- Simple and user-friendly interface
+- Add new student details  
+- View student list  
+- Edit student information  
+- Delete student records with confirmation  
+- Simple and user-friendly interface  
 
 ---
 
 ## 🛠️ Technologies Used
-
 - Python  
 - Django  
 - HTML  
 - CSS  
-- SQLite (Default Django Database)
+- SQLite (Default Django Database)  
 
 ---
 
 ## 📂 Project Structure
-student_management/
+student-management-system/
 │
 ├── student_management/
 │ ├── settings.py
@@ -44,37 +42,43 @@ student_management/
 │
 ├── db.sqlite3
 ├── manage.py
+└── README.md
+
+
+---
+
 ## 📸 Screenshots
 
-### Add Student
-![Add Student](screenshots/add_student.png)
+### ➕ Add Student
+![Add Student](screenshots/Add_Student.png)
 
-### Student List
-![Student List](screenshots/student_list.png)
+### 📋 Student List
+![Student List](screenshots/Student_List.png)
 
-
+---
 
 ## ⚙️ How to Run This Project
 
-1. Clone the repository:
+### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/student-management-system.git
-Go to project directory:
-
+git clone https://github.com/akshatapandit-cyber/student-management-system.git
+2️⃣ Go to project directory
 cd student-management-system
-Install Django:
 
+3️⃣ Install Django
 pip install django
-Run migrations:
 
+4️⃣ Run migrations
 python manage.py migrate
-Start server:
 
+5️⃣ Start the server
 python manage.py runserver
-Open browser and visit:
 
+6️⃣ Open browser and visit
 http://127.0.0.1:8000/
+
 📚 Learning Outcomes
+
 Understanding Django MVT architecture
 
 Performing CRUD operations using Django ORM
@@ -86,6 +90,7 @@ Working with databases
 URL routing and views
 
 👩‍💻 Author
+
 Akshata Sham Pandit
 BCA Student
 Aspiring Python & Django Developer
