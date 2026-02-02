@@ -44,6 +44,15 @@ student_management/
 │
 ├── db.sqlite3
 ├── manage.py
+## 📸 Screenshots
+
+### Add Student
+![Add Student](screenshots/add_student.png)
+
+### Student List
+![Student List](screenshots/student_list.png)
+
+
 
 ## ⚙️ How to Run This Project
 
